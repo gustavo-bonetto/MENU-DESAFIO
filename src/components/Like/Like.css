@@ -1,0 +1,12 @@
+.like {
+    background-color: #1e1e1e;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+   font-size: 35px ; 
+}
+
+.like:hover {
+  transform: scale(1.2);
+}

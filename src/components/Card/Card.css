@@ -1,0 +1,32 @@
+.autor-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autor-imagem {
+  width: 160px;
+  height: 170px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.promo-text {
+  margin: 1px 0;
+  color: #16aa56;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+.gratis {
+  font-size: 30px;
+ font-weight: bold;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  background-image: url('https://xboxwire.thesourcemediaassets.com/sites/8/2026/01/XboxWire_StaticHeaderImage-b1456e23b24c743c84bb.jpg');
+  background-position: 40% -5%;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+

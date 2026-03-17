@@ -1,0 +1,65 @@
+.aba {
+  width: 90% !important;
+  max-width: 1100px !important;
+  margin: 20px auto !important;
+  background-color: #121212;
+  border: 1px solid #222;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  padding: 0;
+}
+
+.aba-title {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.aba-item {
+  border-bottom: 1px solid #222;
+}
+
+.aba-btn {
+  width: 100%;
+  padding: 18px 25px;
+  background: none;
+  border: none;
+  color: #28a745; 
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+
+.aba-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+
+.aba-content {
+  max-height: 0;         
+  overflow: hidden;       
+  transition: max-height 0.4s ease-in-out, opacity 0.3s ease;
+  opacity: 0;
+  background-color: #0d0d0d;
+}
+
+.aba-content.show {
+  max-height: 200px;    
+  opacity: 1;
+}
+
+.aba-text {
+  padding: 20px 25px;     
+  color: #aaa;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
